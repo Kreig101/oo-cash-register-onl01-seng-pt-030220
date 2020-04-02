@@ -54,11 +54,11 @@ def void_last_transaction
   
 
   
-  @total.to_f.map {|cost| cost.pop}
+  @total.to_f
   
   
   # @items.clear
-  # binding.pry
+  binding.pry
 end
 
   
