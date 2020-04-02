@@ -52,8 +52,7 @@ end
 
 def void_last_transaction
   
-@items.each do |x|
-  x.pop
+@items.pop
 
 @total
 binding.pry
