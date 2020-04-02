@@ -54,7 +54,7 @@ def void_last_transaction
   
 
   
-  @total.map {|cost| cost.pop}
+  @total.to_f.map {|cost| cost.pop}
   
   
   # @items.clear
