@@ -54,8 +54,7 @@ def void_last_transaction
   
 @items.pop
 
-@total
-binding.pry
+@total.pop
   
 end
 
