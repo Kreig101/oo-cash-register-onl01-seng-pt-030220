@@ -53,7 +53,7 @@ end
 def void_last_transaction
   
 @total
-binding.pry
+# binding.pry
   
 end
 
