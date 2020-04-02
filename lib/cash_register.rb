@@ -54,7 +54,7 @@ def void_last_transaction
   
 
   
-  @total.to_f
+  @total
   
   
   # @items.clear
