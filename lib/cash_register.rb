@@ -58,7 +58,7 @@ def void_last_transaction
   
   
   # @items.clear
-  binding.pry
+  # binding.pry
 end
 
   
