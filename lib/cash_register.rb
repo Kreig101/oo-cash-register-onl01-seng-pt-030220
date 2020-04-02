@@ -52,11 +52,13 @@ end
 
 def void_last_transaction
   
-@items.map {|item| item}
+@items.each do |x|
+  x.pop
 
 @total
 binding.pry
   
+end
 end
 
   
