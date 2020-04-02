@@ -52,9 +52,9 @@ end
 
 def void_last_transaction
   
-@items.to_f.pop
+@items
 
-@total.to_f.pop
+@total
   
 end
 
