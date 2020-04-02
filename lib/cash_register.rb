@@ -54,7 +54,7 @@ def void_last_transaction
   
 
   
-  @total.each do |x|
+  @total
   
   
   # @items.clear
