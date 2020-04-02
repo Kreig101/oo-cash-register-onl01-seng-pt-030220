@@ -52,10 +52,10 @@ end
 
 def void_last_transaction
   
-  stuff = []
+
   
   @total.each do |x|
-   stuff << x
+  
   
   # @items.clear
   binding.pry
