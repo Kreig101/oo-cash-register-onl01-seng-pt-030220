@@ -23,6 +23,7 @@ class CashRegister
     sum =  @total  +=  new_total
            sum
      quantity.times {@items << title}
+     @last_transaction = new_total
   end
   
   def apply_discount
